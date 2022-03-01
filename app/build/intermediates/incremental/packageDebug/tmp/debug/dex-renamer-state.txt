@@ -1,4 +1,4 @@
-#Tue Mar 01 15:26:10 CET 2022
+#Tue Mar 01 20:01:35 CET 2022
 base.2=C\:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 path.2=15/classes.dex
 base.1=C\:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

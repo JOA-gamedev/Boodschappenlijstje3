@@ -1,5 +1,4 @@
 package com.NovaLabs.boodschappenlijstje;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
@@ -37,7 +36,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<Item> list = new ArrayList<>();
+    final ArrayList<Item> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

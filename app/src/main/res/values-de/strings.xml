@@ -8,6 +8,5 @@
     <string name="add_text">hinzufügen</string>
     <string name="saved_state_message">Liste gespeichert</string>
     <string name="pieces">Stücke</string>
-    <string name="title_share_with">teilen mit</string>
     <string name="share_file_name">Liste</string>
 </resources>

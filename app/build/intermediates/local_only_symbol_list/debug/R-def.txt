@@ -2,7 +2,6 @@ R_DEF: Internal format may change without notice
 local
 array units
 color black
-color blue_200
 color blue_500
 color blue_700
 color lightblue_300
@@ -11,8 +10,6 @@ color lightblue_800
 color white
 drawable ic_baseline_save_24
 drawable ic_baseline_share_24
-drawable ic_boodschappenlijstje3_refreshed_bgsvg
-drawable ic_boodschappenlijstje_logo_96px
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id action_save
@@ -39,6 +36,5 @@ string saved_state_message
 string share_file_name
 string title_save
 string title_share
-string title_share_with
 style Theme.Boodschappenlijstje
 xml file_paths

@@ -2,7 +2,6 @@
 <resources>
     <color name="blue_500">#1156cc</color>
     <color name="blue_700">#0043b5</color>
-    <color name="blue_200">#9aabe5</color>
     <color name="lightblue_600">#11b3cc</color>
     <color name="lightblue_800">#078a99</color>
     <color name="lightblue_300">#52d6ea</color>

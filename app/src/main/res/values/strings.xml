@@ -7,7 +7,6 @@
     <string name="title_share">share</string>
     <string name="saved_state_message">Autosaved list</string>
     <string name="pieces">pcs</string>
-    <string name="title_share_with">Share with</string>
     <string name="share_file_name">list</string>
 
     <string-array name="units">
