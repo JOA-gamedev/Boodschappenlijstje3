@@ -178,16 +178,20 @@ public class MainActivity extends AppCompatActivity {
 
             File file = new File(getCacheDir(),R.string.share_file_name +".txt");
             FileOutputStream fileOutputStream = new FileOutputStream(file);
-            OutputStreamWriter writer = new OutputStreamWriter(fileOutputStream);
-            writer.write(json);
-            writer.close();
-            //get uri form file
+            try (OutputStreamWriter writer = new OutputStreamWriter(fileOutputStream)) {
+                writer.write(json);
+            } catch (IOException e) {
+                e.printStackTrace();
+                fileOutputStream.close();
+            }
 
             Uri uri = FileProvider.getUriForFile(this, this.getApplicationContext().getPackageName() + ".provider", file);
             //share uri
             shareIntent.setAction(Intent.ACTION_SEND);
             shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
             shareIntent.setType("text/*");
+            shareIntent.setFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+            shareIntent.setFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
             Intent chooser = Intent.createChooser(shareIntent, "Share File");
 
             List<ResolveInfo> resInfoList = this.getPackageManager().queryIntentActivities(chooser, PackageManager.MATCH_DEFAULT_ONLY);
@@ -235,6 +239,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        saveData();
+        if(super.getIntent().getAction().equals(Intent.ACTION_MAIN)){
+            saveData();
+        }
     }
 }

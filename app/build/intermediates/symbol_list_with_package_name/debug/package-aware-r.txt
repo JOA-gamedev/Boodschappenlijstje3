@@ -1001,6 +1001,9 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue_200
+color blue_500
+color blue_700
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1062,7 +1065,9 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color ic_launcher_background
+color lightblue_300
+color lightblue_600
+color lightblue_800
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1158,9 +1163,6 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-color purple_200
-color purple_500
-color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
@@ -1174,8 +1176,6 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
-color teal_200
-color teal_700
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
@@ -1699,9 +1699,11 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_baseline_save_24
 drawable ic_baseline_share_24
+drawable ic_boodschappenlijstje3_refreshed_bgsvg
 drawable ic_boodschappenlijstje_logo_96px
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
+drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black

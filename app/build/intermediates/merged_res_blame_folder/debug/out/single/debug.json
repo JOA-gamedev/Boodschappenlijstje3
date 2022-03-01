@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_boodschappenlijstje3_refreshed_bgsvg.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_boodschappenlijstje3_refreshed_bgsvg.png"
+    },
+    {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_boodschappenlijstje_logo_96px.png.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_boodschappenlijstje_logo_96px.png"
     },
@@ -20,16 +24,20 @@
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_boodschappenlijstje_logo_96px.png"
     },
     {
-        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_boodschappenlijstje3_refreshed_bgsvg.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_boodschappenlijstje3_refreshed_bgsvg.png"
     },
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -38,6 +46,10 @@
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_boodschappenlijstje_logo_96px.png.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_boodschappenlijstje_logo_96px.png"
+    },
+    {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_boodschappenlijstje3_refreshed_bgsvg.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_boodschappenlijstje3_refreshed_bgsvg.png"
     },
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_boodschappenlijstje_logo_96px.png.flat",
@@ -60,8 +72,24 @@
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_boodschappenlijstje3_refreshed_bgsvg.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_boodschappenlijstje3_refreshed_bgsvg.png"
+    },
+    {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_boodschappenlijstje3_refreshed_bgsvg.xml.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_boodschappenlijstje3_refreshed_bgsvg.xml"
+    },
+    {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_boodschappenlijstje3_refreshed_bgsvg.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_boodschappenlijstje3_refreshed_bgsvg.png"
+    },
+    {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_share_24.xml.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_boodschappenlijstje3_refreshed_bgsvg.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_boodschappenlijstje3_refreshed_bgsvg.png"
     },
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_boodschappenlijstje_logo_96px.png.flat",
@@ -90,6 +118,10 @@
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
