@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "5,2,3,4,9,8,6,7,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "201,57,109,153,399,335,243,288,439",
+                        "endColumns": "40,50,42,46,38,62,43,45,55",
+                        "endOffsets": "237,103,147,195,433,393,282,329,490"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,147,190,237,276,339,383,429",
+                        "endColumns": "40,50,42,46,38,62,43,45,55",
+                        "endOffsets": "91,142,185,232,271,334,378,424,480"
+                    }
+                }
+            ]
+        }
+    ]
+}

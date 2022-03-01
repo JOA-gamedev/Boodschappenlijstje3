@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_text">hinzufügen</string>
+    <string name="app_name">Einkaufsliste</string>
+    <string name="name_hint">Artikel</string>
+    <string name="number_hint">Anzahl</string>
+    <string name="pieces">Stücke</string>
+    <string name="saved_state_message">Liste gespeichert</string>
+    <string name="title_save">speichern</string>
+    <string name="title_share">teilen</string>
+    <string name="title_share_with">Share with</string>
+</resources>

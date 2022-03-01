@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.NovaLabs.boodschappenlijstje"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:5:5-39:19
+12        android:allowBackup="true"
+12-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\gebruiker\.gradle\caches\transforms-3\3097e1c5dd79a0661fe903d2c2778720\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Boodschappenlijstje" >
+20-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:11:9-57
+21        <activity
+21-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:12:9-29:20
+22            android:name="com.NovaLabs.boodschappenlijstje.MainActivity"
+22-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:13:13-41
+23            android:exported="true" >
+23-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29            <intent-filter>
+29-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:20:13-28:29
+30                <action android:name="android.intent.action.VIEW" />
+30-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <data android:mimeType="text/plain" />
+32-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:22:17-54
+32-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:22:23-52
+33                <data android:scheme="file" />
+33-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:22:17-54
+33-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:23:23-44
+34                <data android:scheme="content" />
+34-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:22:17-54
+34-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:23:23-44
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:25:17-75
+36-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:25:27-73
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:26:17-77
+37-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:26:27-75
+38                <category android:name="android.intent.category.ALTERNATIVE" />
+38-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:27:17-79
+38-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:27:27-77
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:30:9-38:20
+43            android:name="androidx.core.content.FileProvider"
+43-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:31:13-62
+44            android:authorities="com.NovaLabs.boodschappenlijstje.provider"
+44-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:32:13-76
+45            android:exported="false"
+45-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:33:13-37
+46            android:grantUriPermissions="true" >
+46-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:34:13-47
+47            <meta-data
+47-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:35:13-37:54
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:36:17-67
+49                android:resource="@xml/file_paths" />
+49-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:37:17-51
+50        </provider>
+51    </application>
+52
+53</manifest>
