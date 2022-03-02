@@ -193,11 +193,11 @@ public class MainActivity extends AppCompatActivity {
             shareIntent.setFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
             Intent chooser = Intent.createChooser(shareIntent, "Share File");
 
-            List<ResolveInfo> resInfoList = this.getPackageManager().queryIntentActivities(chooser, PackageManager.MATCH_DEFAULT_ONLY);
+            /*List<ResolveInfo> resInfoList = this.getPackageManager().queryIntentActivities(chooser, PackageManager.MATCH_DEFAULT_ONLY);
             for (ResolveInfo resolveInfo : resInfoList) {
                 String packageName = resolveInfo.activityInfo.packageName;
                 this.grantUriPermission(packageName, uri, Intent.FLAG_GRANT_WRITE_URI_PERMISSION | Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            }
+            }*/
             startActivity(chooser);
 
         } catch (IOException e) {

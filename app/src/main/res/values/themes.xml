@@ -8,9 +8,12 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/lightblue_600</item>
         <item name="colorSecondaryVariant">@color/lightblue_800</item>
-        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
     </style>
+    <color name="lv_text_color">@android:color/secondary_text_light</color>
 </resources>
+
