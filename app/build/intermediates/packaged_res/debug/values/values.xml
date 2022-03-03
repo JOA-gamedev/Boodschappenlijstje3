@@ -14,6 +14,7 @@
     <color name="lightblue_300">#52d6ea</color>
     <color name="lightblue_600">#11b3cc</color>
     <color name="lightblue_800">#078a99</color>
+    <color name="lv_text_color">@android:color/secondary_text_light</color>
     <color name="white">#FFFFFF</color>
     <string name="add_text">add</string>
     <string name="app_name">Shopping list</string>
@@ -32,9 +33,10 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/lightblue_600</item>
         <item name="colorSecondaryVariant">@color/lightblue_800</item>
-        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
     </style>
 </resources>

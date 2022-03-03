@@ -6,18 +6,18 @@
                 {
                     "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\values-en\\strings.xml",
                     "from": {
-                        "startLines": "5,2,3,4,9,8,6,7,10",
+                        "startLines": "5,2,3,4,9,8,10,6,7",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "201,57,109,153,399,335,243,288,439",
-                        "endColumns": "40,50,42,46,38,62,43,45,55",
-                        "endOffsets": "237,103,147,195,433,393,282,329,490"
+                        "startOffsets": "201,57,109,153,399,335,439,243,288",
+                        "endColumns": "40,50,42,46,38,62,48,43,45",
+                        "endOffsets": "237,103,147,195,433,393,483,282,329"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,96,147,190,237,276,339,383,429",
-                        "endColumns": "40,50,42,46,38,62,43,45,55",
-                        "endOffsets": "91,142,185,232,271,334,378,424,480"
+                        "startOffsets": "55,96,147,190,237,276,339,388,432",
+                        "endColumns": "40,50,42,46,38,62,48,43,45",
+                        "endOffsets": "91,142,185,232,271,334,383,427,473"
                     }
                 }
             ]

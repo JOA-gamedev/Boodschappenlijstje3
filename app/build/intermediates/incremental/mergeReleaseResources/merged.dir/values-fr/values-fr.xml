@@ -69,7 +69,7 @@
     <string name="mtrl_picker_invalid_format_use">Utiliser %1$s</string>
     <string name="mtrl_picker_invalid_range">Plage non valide.</string>
     <string name="mtrl_picker_navigate_to_year_description">Accéder à l\'année %1$s</string>
-    <string name="mtrl_picker_out_of_range">Hors de portée : %1$s</string>
+    <string name="mtrl_picker_out_of_range">Hors limite : %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Date de début – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – Date de fin</string>
     <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
@@ -92,8 +92,8 @@
     <string name="pieces">parts</string>
     <string name="saved_state_message">liste sauvegardée</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="share_file_name">liste</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="title_save">enregistrer</string>
     <string name="title_share">partage</string>
-    <string name="title_share_with">Share with</string>
 </resources>

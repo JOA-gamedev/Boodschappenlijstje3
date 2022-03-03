@@ -6,7 +6,7 @@
     <string name="number_hint">quantité</string>
     <string name="pieces">parts</string>
     <string name="saved_state_message">liste sauvegardée</string>
+    <string name="share_file_name">liste</string>
     <string name="title_save">enregistrer</string>
     <string name="title_share">partage</string>
-    <string name="title_share_with">Share with</string>
 </resources>

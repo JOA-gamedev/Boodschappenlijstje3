@@ -92,8 +92,8 @@
     <string name="pieces">Stücke</string>
     <string name="saved_state_message">Liste gespeichert</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string name="share_file_name">Liste</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="title_save">speichern</string>
     <string name="title_share">teilen</string>
-    <string name="title_share_with">Share with</string>
 </resources>

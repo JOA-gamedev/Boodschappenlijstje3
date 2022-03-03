@@ -6,7 +6,7 @@
     <string name="number_hint">number</string>
     <string name="pieces">pcs</string>
     <string name="saved_state_message">Autosaved list</string>
+    <string name="share_file_name">list</string>
     <string name="title_save">save</string>
     <string name="title_share">share</string>
-    <string name="title_share_with">Share with</string>
 </resources>
