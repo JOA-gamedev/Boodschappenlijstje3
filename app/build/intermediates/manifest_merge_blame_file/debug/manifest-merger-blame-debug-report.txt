@@ -25,91 +25,90 @@
 17-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:8:9-54
 18        android:supportsRtl="true"
 18-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:9:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.Boodschappenlijstje" >
-20-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:10:9-57
-21        <activity
-21-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:11:9-28:20
-22            android:name="com.NovaLabs.boodschappenlijstje.MainActivity"
-22-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:12:13-41
-23            android:exported="true" >
-23-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:13:13-36
-24            <intent-filter>
-24-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:14:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:15:17-69
-25-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:15:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:17:17-77
-27-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29            <intent-filter>
-29-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:19:13-27:29
-30                <action android:name="android.intent.action.VIEW" />
-30-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:20:17-69
-30-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:20:25-66
-31
-32                <data android:mimeType="text/plain" />
+19        android:theme="@style/Theme.Boodschappenlijstje" >
+19-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:10:9-57
+20        <activity
+20-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:11:9-28:20
+21            android:name="com.NovaLabs.boodschappenlijstje.MainActivity"
+21-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:12:13-41
+22            android:exported="true" >
+22-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:13:13-36
+23            <intent-filter>
+23-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:15:17-69
+24-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:17:17-77
+26-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28            <intent-filter>
+28-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:19:13-27:29
+29                <action android:name="android.intent.action.VIEW" />
+29-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <data android:mimeType="text/plain" />
+31-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:17-54
+31-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:23-52
+32                <data android:scheme="file" />
 32-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:17-54
-32-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:23-52
-33                <data android:scheme="file" />
+32-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:22:23-44
+33                <data android:scheme="content" />
 33-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:17-54
 33-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:22:23-44
-34                <data android:scheme="content" />
-34-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:21:17-54
-34-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:22:23-44
-35
-36                <category android:name="android.intent.category.DEFAULT" />
-36-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:24:17-75
-36-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:24:27-73
-37                <category android:name="android.intent.category.BROWSABLE" />
-37-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:25:17-77
-37-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:25:27-75
-38                <category android:name="android.intent.category.ALTERNATIVE" />
-38-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:26:17-79
-38-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:26:27-77
-39            </intent-filter>
-40        </activity>
-41
-42        <provider
-42-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:29:9-37:20
-43            android:name="androidx.core.content.FileProvider"
-43-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:30:13-62
-44            android:authorities="com.NovaLabs.boodschappenlijstje.provider"
-44-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:31:13-76
-45            android:exported="false"
-45-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:32:13-37
-46            android:grantUriPermissions="true" >
-46-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:33:13-47
-47            <meta-data
-47-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:34:13-36:54
-48                android:name="android.support.FILE_PROVIDER_PATHS"
-48-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:35:17-67
-49                android:resource="@xml/file_paths" />
-49-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:36:17-51
-50        </provider>
-51        <provider
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-53            android:authorities="com.NovaLabs.boodschappenlijstje.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-61        </provider>
-62    </application>
-63
-64</manifest>
+34
+35                <category android:name="android.intent.category.DEFAULT" />
+35-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:24:17-75
+35-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:24:27-73
+36                <category android:name="android.intent.category.BROWSABLE" />
+36-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:25:17-77
+36-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:25:27-75
+37                <category android:name="android.intent.category.ALTERNATIVE" />
+37-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:26:17-79
+37-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:26:27-77
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:29:9-37:20
+42            android:name="androidx.core.content.FileProvider"
+42-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:30:13-62
+43            android:authorities="com.NovaLabs.boodschappenlijstje.provider"
+43-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:31:13-76
+44            android:exported="false"
+44-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:32:13-37
+45            android:grantUriPermissions="true" >
+45-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:33:13-47
+46            <meta-data
+46-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:34:13-36:54
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:35:17-67
+48                android:resource="@xml/file_paths" />
+48-->C:\Users\gebruiker\AndroidStudioProjects\boodschappenlijstje3\app\src\main\AndroidManifest.xml:36:17-51
+49        </provider>
+50        <provider
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+52            android:authorities="com.NovaLabs.boodschappenlijstje.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\gebruiker\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>

@@ -2454,6 +2454,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_baseline_save_24
 drawable ic_baseline_share_24
+drawable ic_boodschappenlijstje3_refreshed_bgsvg
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
