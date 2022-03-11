@@ -138,20 +138,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void jsonToList(String json) {
         Gson gson = new Gson();
-        //CRITICAL type needs to be correct to parse the json string
-        //i hope this V wont fail
         Type type = new TypeToken<String[][]>() {}.getType();
-        //check if parsed json contains data otherwise don't overwrite the main list
         if(gson.fromJson(json, type) != null){
-            //loop through parsed json String[][] where [][]<-this is 0-2 values of the item and add to list
-
             String[][] lst = gson.fromJson(json, type);
             for (String[] strings : lst) {
                 list.add(new Item(strings[0], strings[1], Integer.parseInt(strings[2])));
                 System.out.println(strings[0]);
             }
-
-
             updateList();
         }
     }
@@ -169,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
     private void shareData(){
         try {
             String json = listToJson();
-            File file = new File(getCacheDir(),getString(R.string.share_file_name)+".txt");
+            File file = new File(getCacheDir(),getString(R.string.share_file_name)+".json");
             FileOutputStream fileOutputStream = new FileOutputStream(file);
             try (OutputStreamWriter writer = new OutputStreamWriter(fileOutputStream)) {
                 writer.write(json);
@@ -182,11 +175,12 @@ public class MainActivity extends AppCompatActivity {
             Intent shareIntent = new Intent();
             //share uri
             shareIntent.setAction(Intent.ACTION_SEND);
-            shareIntent.setDataAndType(uri, "text/*");
+            shareIntent.setDataAndType(uri, "text/json");
             shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
+            shareIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.title_share));
             shareIntent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            Intent chooser = Intent.createChooser(shareIntent, getResources().getString(R.string.title_share));
+            Intent chooser = Intent.createChooser(shareIntent, getString(R.string.title_share));
             startActivity(chooser);
 
         } catch (IOException e) {

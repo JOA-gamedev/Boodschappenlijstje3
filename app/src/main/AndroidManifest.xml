@@ -18,8 +18,10 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-                <data android:mimeType="text/plain"/>
+                <data android:host="*"/>
                 <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="application/json"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
