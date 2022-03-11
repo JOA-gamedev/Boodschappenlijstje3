@@ -11,6 +11,7 @@ color lv_text_color
 color white
 drawable ic_baseline_save_24
 drawable ic_baseline_share_24
+drawable ic_boodschappenlijstje3_refreshed_bgsvg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id action_save

@@ -4,8 +4,6 @@ import androidx.core.content.FileProvider;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
@@ -22,7 +20,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -32,7 +29,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -173,9 +169,7 @@ public class MainActivity extends AppCompatActivity {
     private void shareData(){
         try {
             String json = listToJson();
-            Intent shareIntent = new Intent();
-
-            File file = new File(getCacheDir(),R.string.share_file_name +".txt");
+            File file = new File(getCacheDir(),getString(R.string.share_file_name)+".txt");
             FileOutputStream fileOutputStream = new FileOutputStream(file);
             try (OutputStreamWriter writer = new OutputStreamWriter(fileOutputStream)) {
                 writer.write(json);
@@ -185,19 +179,14 @@ public class MainActivity extends AppCompatActivity {
             }
 
             Uri uri = FileProvider.getUriForFile(this, this.getApplicationContext().getPackageName() + ".provider", file);
+            Intent shareIntent = new Intent();
             //share uri
             shareIntent.setAction(Intent.ACTION_SEND);
+            shareIntent.setDataAndType(uri, "text/*");
             shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
-            shareIntent.setType("text/*");
-            shareIntent.setFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
-            shareIntent.setFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
-            Intent chooser = Intent.createChooser(shareIntent, "Share File");
-
-            /*List<ResolveInfo> resInfoList = this.getPackageManager().queryIntentActivities(chooser, PackageManager.MATCH_DEFAULT_ONLY);
-            for (ResolveInfo resolveInfo : resInfoList) {
-                String packageName = resolveInfo.activityInfo.packageName;
-                this.grantUriPermission(packageName, uri, Intent.FLAG_GRANT_WRITE_URI_PERMISSION | Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            }*/
+            shareIntent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            Intent chooser = Intent.createChooser(shareIntent, getResources().getString(R.string.title_share));
             startActivity(chooser);
 
         } catch (IOException e) {

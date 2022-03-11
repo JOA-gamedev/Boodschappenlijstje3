@@ -19,11 +19,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <data android:mimeType="text/plain"/>
-                <data android:scheme="file"/>
                 <data android:scheme="content"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <category android:name="android.intent.category.ALTERNATIVE"/>
             </intent-filter>
         </activity>
         <provider
