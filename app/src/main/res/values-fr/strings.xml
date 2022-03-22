@@ -3,10 +3,16 @@
     <string name="app_name">liste d\'épicerie</string>
     <string name="number_hint">quantité</string>
     <string name="name_hint">article</string>
-    <string name="add_text">ajouter</string>
     <string name="title_save">enregistrer</string>
     <string name="title_share">partage</string>
+    <string name="title_delete">supprimer</string>
+    <string name="add_text">ajouter</string>
     <string name="saved_state_message">liste sauvegardée</string>
     <string name="pieces">parts</string>
     <string name="share_file_name">liste</string>
+
+    <string name="delete_title">Supprimer ?</string>
+    <string name="delete_message">Êtes-vous sûr de vouloir supprimer la liste ?</string>
+    <string name="delete_button">Supprimer</string>
+    <string name="delete_cancel">Annuler</string>
 </resources>

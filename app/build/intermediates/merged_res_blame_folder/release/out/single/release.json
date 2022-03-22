@@ -12,12 +12,16 @@
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
     },
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\release\\xml_file_paths.xml.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\release\\layout_itemlayout.xml.flat",

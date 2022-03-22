@@ -2,11 +2,16 @@
 <resources>
     <string name="add_text">voeg</string>
     <string name="app_name">Boodschappenlijstje</string>
+    <string name="delete_button">Verwijder</string>
+    <string name="delete_cancel">Annuleer</string>
+    <string name="delete_message">Weet u zeker dat u de lijst wilt verwijderen?</string>
+    <string name="delete_title">Verwijderen?</string>
     <string name="name_hint">artikel</string>
     <string name="number_hint">aantal</string>
     <string name="pieces">stuks</string>
     <string name="saved_state_message">Lijst opgeslagen</string>
     <string name="share_file_name">lijst</string>
+    <string name="title_delete">verwijderen</string>
     <string name="title_save">opslaan</string>
     <string name="title_share">delen</string>
 </resources>

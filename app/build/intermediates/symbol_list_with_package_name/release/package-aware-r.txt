@@ -2452,6 +2452,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_delete_24
 drawable ic_baseline_save_24
 drawable ic_baseline_share_24
 drawable ic_boodschappenlijstje3_refreshed_bgsvg
@@ -2571,6 +2572,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_delete
 id action_divider
 id action_image
 id action_menu_divider
@@ -3215,6 +3217,10 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string delete_button
+string delete_cancel
+string delete_message
+string delete_title
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3315,6 +3321,7 @@ string saved_state_message
 string search_menu_title
 string share_file_name
 string status_bar_notification_info_overflow
+string title_delete
 string title_save
 string title_share
 style AlertDialog_AppCompat

@@ -1,13 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name_hint">item</string>
-    <string name="number_hint">number</string>
-    <string name="add_text">add</string>
     <string name="app_name">Shopping list</string>
+    <string name="number_hint">number</string>
+    <string name="name_hint">item</string>
     <string name="title_save">save</string>
     <string name="title_share">share</string>
+    <string name="title_delete">delete</string>
+    <string name="add_text">add</string>
     <string name="saved_state_message">Autosaved list</string>
     <string name="pieces">pcs</string>
     <string name="share_file_name">list</string>
+
+    <string name="delete_title">Delete?</string>
+    <string name="delete_message">Are you sure you want to delete the list?</string>
+    <string name="delete_button">Delete</string>
+    <string name="delete_cancel">Cancel</string>
 
     <string-array name="units">
         <item> </item>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.NovaLabs.boodschappenlijstje"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -27,13 +27,12 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:mimeType="text/plain" />
-                <data android:scheme="file" />
+                <data android:host="*" />
                 <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="application/json" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <category android:name="android.intent.category.ALTERNATIVE" />
             </intent-filter>
         </activity>
 

@@ -1,7 +1,7 @@
 package com.NovaLabs.boodschappenlijstje;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
-
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -143,13 +143,24 @@ public class MainActivity extends AppCompatActivity {
             String[][] lst = gson.fromJson(json, type);
             for (String[] strings : lst) {
                 list.add(new Item(strings[0], strings[1], Integer.parseInt(strings[2])));
-                System.out.println(strings[0]);
             }
             updateList();
         }
     }
 
-
+    private void deleteData(){
+        AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+        alertDialog.setTitle(R.string.delete_title);
+        alertDialog.setMessage(getText(R.string.delete_message));
+        alertDialog.setCancelable(true);
+        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getText(R.string.delete_cancel), (dialog, which) -> dialog.dismiss());
+        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getText(R.string.delete_button),
+                (dialog, which) -> {
+                    list.clear();
+                    updateList();
+                });
+        alertDialog.show();
+    }
 
     private void saveData() {
         SharedPreferences sharedPreferences = getSharedPreferences("sp", MODE_PRIVATE);
@@ -214,6 +225,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if(men.getItemId() == R.id.action_share){
             shareData();
+        }
+        if(men.getItemId() == R.id.action_delete){
+            deleteData();
         }
         return false;
     }

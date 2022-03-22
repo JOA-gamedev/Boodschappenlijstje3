@@ -2,11 +2,16 @@
 <resources>
     <string name="add_text">hinzufügen</string>
     <string name="app_name">Einkaufsliste</string>
+    <string name="delete_button">Lösch</string>
+    <string name="delete_cancel">Abbrechen</string>
+    <string name="delete_message">Sind Sie sicher, dass Sie die Liste löschen wollen?</string>
+    <string name="delete_title">Löschen?</string>
     <string name="name_hint">Artikel</string>
     <string name="number_hint">Anzahl</string>
     <string name="pieces">Stücke</string>
     <string name="saved_state_message">Liste gespeichert</string>
     <string name="share_file_name">Liste</string>
+    <string name="title_delete">Löschen</string>
     <string name="title_save">speichern</string>
     <string name="title_share">teilen</string>
 </resources>

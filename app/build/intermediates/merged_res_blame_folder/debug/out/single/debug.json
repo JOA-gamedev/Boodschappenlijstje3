@@ -64,6 +64,10 @@
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_boodschappenlijstje3_refreshed_bgsvg.png"
     },
     {
+        "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
+    },
+    {
         "merged": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_share_24.xml.flat",
         "source": "C:\\Users\\gebruiker\\AndroidStudioProjects\\boodschappenlijstje3\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
     },
