@@ -57,25 +57,14 @@ public class MainActivity extends AppCompatActivity {
         numberInput.setOnEditorActionListener((textView, i, ke) -> {
             if ((ke != null && (ke.getKeyCode() == KeyEvent.KEYCODE_ENTER)) || (i == EditorInfo.IME_ACTION_NEXT)) {
                 //do what you want on the press of 'done'
-                button.performClick();
+                ButtonClick(nameInput, numberInput, units_spinner);
             }
             return false;
         });
 
         //need to integrate a lv.update() function somehow
-        button.setOnClickListener(view -> {
-            String name = nameInput.getText().toString();
-            String number = numberInput.getText().toString();
-            int unit = units_spinner.getSelectedItemPosition();
-
-            list.add(0, new Item(name, number, unit));
-            updateList();
-
-            nameInput.setText("");
-            numberInput.setText("");
-            units_spinner.setSelection(0);
-            nameInput.requestFocus();
-        });
+        //edit: DONE! VERY HAPPY RN
+        button.setOnClickListener(view -> ButtonClick(nameInput, numberInput, units_spinner));
 
         lv.setOnItemLongClickListener((adapterView, view, i, l) -> {
             list.remove(i);
@@ -100,6 +89,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    private void ButtonClick(EditText nameInput, EditText numberInput, Spinner units_spinner) {
+        String name = nameInput.getText().toString();
+        String number = numberInput.getText().toString();
+        int unit = units_spinner.getSelectedItemPosition();
+
+        list.add(0, new Item(name, number, unit));
+        updateList();
+
+        nameInput.setText("");
+        numberInput.setText("");
+        units_spinner.setSelection(0);
+        nameInput.requestFocus();
+    }
+
 
     private void updateList() {
         //update list
